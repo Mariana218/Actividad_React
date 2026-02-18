@@ -1,0 +1,45 @@
+.list-container {
+  width: 90%;
+  max-width: 1000px; /* Para que coincida con el ancho de tu navbar */
+  margin: 40px auto 20px auto; /* Centrado y con espacio arriba */
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between; /* Título a la izquierda, botones a la derecha */
+  align-items: center;
+}
+
+.list-title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 12px; /* Espacio entre los botones */
+}
+
+.filter-btn {
+  background-color: #1e2533; /* Color grisáceo azulado de la imagen */
+  color: #94a3b8;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 20px; /* Forma de píldora */
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* El botón seleccionado (All) */
+.filter-btn.active {
+  background-color: #ff5f50; /* El naranja rojizo de tu captura */
+  color: white;
+}
+
+.filter-btn:hover:not(.active) {
+  background-color: #2d3748;
+}

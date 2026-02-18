@@ -11,10 +11,16 @@ function App() {
 
   return (
     <>
-
-
     <Pricomp />
+    <Segcomp />
+    
+    <div className="extensions-grid">
+        <Tercomp name="DevLens" iconColor="#d1fae5" />
+        <Tercomp name="StyleSpy" iconColor="#e0f2fe" />
+        <Tercomp name="SpeedBoost" iconColor="#fee2e2" />
+      </div>
     </>
+
   )
 
 }

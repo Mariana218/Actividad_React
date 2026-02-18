@@ -3,22 +3,17 @@ import '../stylesheets/Pricomp.css'
 
 export const Pricomp = () => {
   return (
-    <div className='pricomp'>
-      <img style={{
-        width: '50px',
-        height: '50px',
-        borderRadius: '50%',
-        objectFit: 'cover',
-      }} src="unnamed.jpg" alt="" />
-        <h1 style={{
-          fontSize: '18px',
-          color: 'white',
-          textAlign: 'left',
-          marginTop: '20px',
-          fontWeight: 'bold',
-          height: '100%',
-          width: '100%',
-        }}>Extensions</h1>
-    </div>
-  )
+    <>
+    <nav className="navbar-container">
+      <div className="navbar-content">
+        <div className="logo-section">
+          <img src="unnamed.jpg" alt="Logo" className="logo-img" />
+          <h1 className="nav-title">Extensions</h1>
+        </div>
+        <button className="theme-toggle">
+          ☀️
+        </button>
+      </div>
+    </nav>
+    </>)
 }
