@@ -1,6 +1,6 @@
 .list-container {
-  width: 90%;
-  max-width: 1000px; /* Para que coincida con el ancho de tu navbar */
+  width: 100%;
+  max-width: 1000px; 
   margin: 40px auto 20px auto; /* Centrado y con espacio arriba */
 }
 

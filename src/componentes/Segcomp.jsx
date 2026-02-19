@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/Pricomp.css'
+import '../stylesheets/Segcom.css'
 
 export const Segcomp = () => {
   return (

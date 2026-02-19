@@ -9,7 +9,7 @@
 
 /* La cápsula oscura */
 .navbar-content {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
   background-color: rgba(230, 214, 214, 0.171);
   display: flex;

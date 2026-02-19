@@ -1,4 +1,4 @@
-.tarjet {
+.tarjet {  
   background-color: #1e1e2e;
   color: #ffffff;
   padding: 16px;
@@ -6,6 +6,8 @@
   width: 320px;
   font-family: sans-serif;
   border: 1px solid #333;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .card-header {
