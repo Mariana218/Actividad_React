@@ -7,7 +7,7 @@ export const Pricomp = () => {
     <nav className="navbar-container">
       <div className="navbar-content">
         <div className="logo-section">
-          <img src="unnamed.jpg" alt="Logo" className="logo-img" />
+          <img className="logo-icon" src="/logo1.png" alt="DevLens Logo" />
           <h1 className="nav-title">Extensions</h1>
         </div>
         <button className="theme-toggle">
